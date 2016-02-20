@@ -1,0 +1,27 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Action": [
+                "dynamodb:GetItem"
+            ],
+            "Effect": "Allow",
+            "Resource": "arn:aws:dynamodb:us-east-1:367551854218:table/Tutortub"
+        },
+        {
+            "Effect": "Allow",
+            "Action": [
+                "cognito-identity:GetOpenIdTokenForDeveloperIdentity"
+            ],
+            "Resource": "arn:aws:cognito-identity:us-east-1:367551854218:identitypool/us-east-1:ce9bbdc5-c354-418e-abfb-5cd35f06ff56"
+        },
+        {
+            "Sid": "",
+            "Resource": "*",
+            "Action": [
+                "logs:*"
+            ],
+            "Effect": "Allow"
+        }
+    ]
+}

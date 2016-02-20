@@ -1,0 +1,14 @@
+{
+  "AWS_ACCOUNT_ID": "367551854218",
+  "REGION": "us-east-1",
+  "BUCKET": "tutortub",
+  "MAX_AGE": "10",
+  "DDB_TABLE": "Tutortub",
+  "IDENTITY_POOL_NAME": "LambdAuth",
+  "DEVELOPER_PROVIDER_NAME": "login.tutortub.services",
+  "EXTERNAL_NAME": "Tutortub Authentication",
+  "EMAIL_SOURCE": "support@tutortub.com",
+  "VERIFICATION_PAGE": "http://tutortub.s3.amazonaws.com/verify.html",
+  "RESET_PAGE": "http://tutortub.s3.amazonaws.com/reset.html",
+  "IDENTITY_POOL_ID": "us-east-1:ce9bbdc5-c354-418e-abfb-5cd35f06ff56"
+}
